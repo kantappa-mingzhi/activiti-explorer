@@ -5,8 +5,7 @@ import java.io.IOException;
 import java.io.OutputStream;
 
 import javax.servlet.ServletOutputStream;
-
-import org.apache.coyote.http11.upgrade.servlet31.WriteListener;
+import javax.servlet.WriteListener;
 
 public class FilterServletOutputStream extends ServletOutputStream {
 

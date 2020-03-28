@@ -50,12 +50,12 @@
   <bean id="formService" factory-bean="processEngine" factory-method="getFormService" />
   <bean id="historyService" factory-bean="processEngine" factory-method="getHistoryService" />
   <bean id="managementService" factory-bean="processEngine" factory-method="getManagementService" />
-  <bean id="identityService" factory-bean="processEngine" factory-method="getIdentityService" />  -->
+  <bean id="identityService" factory-bean="processEngine" factory-method="getIdentityService" />
   <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
     <property name="driverClassName" value="com.mysql.jdbc.Driver" />
-    <property name="url" value="jdbc:mysql://192.168.19.128:3306/test?autoReconnct=true" />
+    <property name="url" value="jdbc:mysql://127.0.0.1:3306/workflow?autoReconnct=true" />
     <property name="username" value="root" />
     <property name="password" value="root" />
     <property name="defaultAutoCommit" value="false" />
-  </bean>
+  </bean> -->
 </beans>
